@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "libft.h": "c",
+        "__config": "c",
+        "locale": "c",
+        "ft_printf_lib.h": "c"
+    }
+}
