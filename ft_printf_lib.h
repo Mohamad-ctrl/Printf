@@ -19,10 +19,16 @@
 # include <string.h>
 # include <unistd.h>
 # include <stdarg.h>
+# include <stdint.h>
+
 
 int ft_printf(const char *, ...);
 int printc(int c);
 int	ft_putstr(char *s);
 int	ft_putnbr(int nb);
+int ft_nullstr(char *s);
+int printuns(unsigned int x);
+int printhex(unsigned int nb, const char op);
+int voidptr(unsigned long long ptr);
 
 #endif
