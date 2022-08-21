@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf_lib.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mosharif <mohamad42acc@gmail.com>          +#+  +:+       +#+        */
+/*   By: hawadh <hawadh@student.42abudhabi.ae>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/15 09:21:08 by mosharif          #+#    #+#             */
-/*   Updated: 2022/08/15 09:21:09 by mosharif         ###   ########.fr       */
+/*   Updated: 2022/08/21 18:15:01 by hawadh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,8 @@
 # include <stdarg.h>
 
 int ft_printf(const char *, ...);
-void ft_putchar(char c);
+int printc(int c);
+int	ft_putstr(char *s);
+int	ft_putnbr(int nb);
 
 #endif
